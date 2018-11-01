@@ -32,6 +32,10 @@ li a{
 	padding: 20px;
 	display:block;
 }
+li a:hover{
+  background-color:#DC143C;
+  color: black;
+}
 h4{
   color:white;
   text-align: center;

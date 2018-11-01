@@ -1,0 +1,148 @@
+#letrita1 {
+	text-align: right;
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}
+#letrita2 {
+	text-align: left;
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}
+
+body{
+  background-color: black;
+}
+/*neon effect*/
+#p1 {
+  text-align:right;
+  font-size:4em;
+  margin:20px 0 20px 0;
+}
+#p2 {
+  text-align:left;
+  font-size:4em;
+  margin:20px 0 20px 0;
+}
+
+a{
+  text-decoration:none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+p:nth-child(1) a{
+  color:#ff0000;
+  font-family:Monoton;
+}
+p:nth-child(1) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+
+p a:hover{
+color:#ffffff;
+}
+
+
+
+/*glow for webkit-ket-frames*/
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #ff0000,
+               0 0 70px  #ff0000,
+               0 0 80px  #ff0000,
+               0 0 100px #ff0000,
+               0 0 150px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #ff0000,
+               0 0 35px #ff0000,
+               0 0 40px #ff0000,
+               0 0 50px #ff0000,
+               0 0 75px #ff0000;
+  }
+}
+
+/*glow for mozilla-keyframes*/
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 80px  #FF1177,
+               0 0 100px #FF1177,
+               0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF1177,
+               0 0 35px #FF1177,
+               0 0 40px #FF1177,
+               0 0 50px #FF1177,
+               0 0 75px #FF1177;
+  }
+}
+
+/*glow*/
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #ff0000,
+               0 0 70px  #ff0000,
+               0 0 80px  #ff0000,
+               0 0 100px #ff0000,
+               0 0 150px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #ff0000,
+               0 0 35px #ff0000,
+               0 0 40px #ff0000,
+               0 0 50px #ff0000,
+               0 0 75px #ff0000;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #ff0000,
+               0 0 70px  #ff0000,
+               0 0 80px  #ff0000,
+               0 0 100px #ff0000,
+               0 0 150px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #ff0000,
+               0 0 35px #ff0000,
+               0 0 40px #ff0000,
+               0 0 50px #ff0000,
+               0 0 75px #ff0000;
+  }
+}
